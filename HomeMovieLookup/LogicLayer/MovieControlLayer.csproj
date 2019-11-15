@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenMovieDatabaseApiClient" Version="1.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\MovieDataAccessLayer.csproj" />
+    <ProjectReference Include="..\ObjectLayer\MovieObjectLayer.csproj" />
+  </ItemGroup>
+
+</Project>
