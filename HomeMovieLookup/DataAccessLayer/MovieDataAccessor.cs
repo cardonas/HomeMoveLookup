@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using MovieObjectLayer;
 using OpenMovieDatabase.Client;
 
 namespace MovieDataAccessLayer
@@ -110,6 +111,7 @@ namespace MovieDataAccessLayer
         //{
         //    Summary newPlot = new Summary();
         //    string dataPath = DataSource.GetfilePath() + @"\" + movie.PlotFileName;
+        
         //    try
         //    {
         //        FileStream moviePlot = new FileStream(dataPath, FileMode.Open, FileAccess.Read);
@@ -121,6 +123,7 @@ namespace MovieDataAccessLayer
         //    {
         //        throw ex;
         //    }
+
         //    return newPlot;
         //}
 

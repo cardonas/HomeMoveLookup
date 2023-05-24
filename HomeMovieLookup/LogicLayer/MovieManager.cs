@@ -1,4 +1,5 @@
 ﻿using MovieDataAccessLayer;
+using MovieObjectLayer;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -20,6 +21,7 @@ namespace MovieControlLayer
                 throw;
             }
         }
+
         public List<Movie> MovieLIst
         {
             get { return _movieList;}

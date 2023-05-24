@@ -1,5 +1,6 @@
 ﻿using MovieControlLayer;
 using MovieDataAccessLayer;
+using MovieObjectLayer;
 using OpenMovieDatabase.Client;
 using System;
 using System.Collections.Generic;
